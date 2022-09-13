@@ -22,7 +22,12 @@ namespace GovtPincodeApp.Controllers
         {
             try
             {
-                return Ok(new SearchResponse(_searchService.Search(queryParameters)));
+                if(queryParameters.IsValidParam())
+                    return Ok(_searchService.Search(queryParameters));
+                else
+                {
+                    return NotFound(new SearchResponse(error:"Please Pass Atleast 1 Param"));
+                }
             }
             catch (Exception ex)
             {

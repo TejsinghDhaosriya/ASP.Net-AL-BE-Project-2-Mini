@@ -4,19 +4,18 @@
     {
         public QueryParameters()
         {
-            name = "";
-            startDate = "";
-            endDate = "";
-            informationAt = "";
+            pincode = "";
+            telephone = "";
         }
 
-        public string name { get; set; }
+        public string pincode { get; set; }
 
-        public string startDate { get; set; }
+        public string telephone { get; set; }
 
-        public string endDate { get; set; }
 
-        public string informationAt { get; set; }
-
+        public bool IsValidParam()
+        {
+            return !string.IsNullOrEmpty(pincode) || !string.IsNullOrEmpty(telephone) ;
+        }
     }
 }

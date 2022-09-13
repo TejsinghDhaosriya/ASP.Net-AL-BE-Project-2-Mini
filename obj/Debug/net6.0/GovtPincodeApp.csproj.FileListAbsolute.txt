@@ -25,3 +25,5 @@ C:\Users\tej\workArea\Asp.Net\GovtIndiaProject\GovtPincodeApp\obj\Debug\net6.0\r
 C:\Users\tej\workArea\Asp.Net\GovtIndiaProject\GovtPincodeApp\obj\Debug\net6.0\GovtPincodeApp.pdb
 C:\Users\tej\workArea\Asp.Net\GovtIndiaProject\GovtPincodeApp\obj\Debug\net6.0\GovtPincodeApp.genruntimeconfig.cache
 C:\Users\tej\workArea\Asp.Net\GovtIndiaProject\GovtPincodeApp\obj\Debug\net6.0\ref\GovtPincodeApp.dll
+C:\Users\tej\workArea\Asp.Net\GovtIndiaProject\GovtPincodeApp\bin\Debug\net6.0\govt-data.csv
+C:\Users\tej\workArea\Asp.Net\GovtIndiaProject\GovtPincodeApp\bin\Debug\net6.0\CsvHelper.dll

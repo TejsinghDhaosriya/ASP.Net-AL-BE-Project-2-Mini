@@ -2,6 +2,9 @@ using GovtPincodeApp.Service;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers().AddJsonOptions(options => {
+    options.JsonSerializerOptions.IgnoreNullValues = true;
+});
 // Add services to the container.
 
 builder.Services.AddControllers();
